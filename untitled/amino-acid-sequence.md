@@ -2,7 +2,7 @@
 
 A multiple sequence alignment \(MSA\), as illustrated in Figure 1, is a sequence alignment of three or more biological sequences, generally protein, DNA, or RNA. Multiple sequence alignments can be useful in many circumstances, e.g., detecting historical and familial relations between sequences of proteins or amino acids and determining certain structures or locations on sequences.
 
-![](../.gitbook/assets/msa.png)
+![Figure 1. A multiple sequence alignment of $N$ sequences by $L$ positions. As shown, the lines in dark red stand for the conservation of the amino acids at that position, while the bold lines in orange indicate that the amino acids at position $i$ and $j$ are conserved and coupled.](../.gitbook/assets/msa.png)
 
 ### Statistics in sequences
 
@@ -29,7 +29,9 @@ When you get the multiple alignment of hits from the jackhmmer, it is time to la
 $ leri sequence_converter -jobname <JOB_NAME> -msa <NAME_OF_STO>.sto
 ```
 
+![Figure 1. Similarity between pairwise sequences.](../.gitbook/assets/p08908_sequence_similarity.png)
 
+![Figure 2. Degree of conservation at each single site.](../.gitbook/assets/p08908_site_conservation.png)
 
 Trim aligned sequences according to the query sequence.
 
@@ -43,7 +45,5 @@ Basic statistics on the aligned sequences,
 $ leri sequence_stats -jobname <JOB_NAME> -msa <NAME_OF_MSA>_msa_trimmed.aln
 ```
 
-![Similarity between pairwise seuqences.](../.gitbook/assets/www_sequence_similarity.png)
 
-![Degree of conservation at each single site.](../.gitbook/assets/www_site_conservation.png)
 

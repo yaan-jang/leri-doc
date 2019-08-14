@@ -15,7 +15,7 @@ Leri provides a tool, shown as following command, for the computer-aided design 
 $ leri point_mutation -jobname <JOB_NAME> -fastx <WILD_SEQ_NAME>.fasta -mat <POTENTIAL_NAME>.csv 
 ```
 
-![](../.gitbook/assets/ww_single_mutation.png)
+![](../.gitbook/assets/gpcr2rh1_wt_r_point_mutation.png)
 
 ## Coupled mutation
 
