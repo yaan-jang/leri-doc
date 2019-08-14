@@ -6,7 +6,7 @@
   * [Requirements](getting-started/requirements.md)
   * [Installation](getting-started/installation.md)
 * [Usage](usage.md)
-* [Protein studies](untitled/README.md)
+* [Protein evolution-design-folding](untitled/README.md)
   * [Amino acid sequence](untitled/amino-acid-sequence.md)
   * [Evolutionary couplings of amino acids](untitled/evolutionary-couplings-of-amino-acids.md)
   * [Sequence potential & energy](untitled/sequence-potential-and-energy.md)
