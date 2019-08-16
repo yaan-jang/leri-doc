@@ -5,7 +5,7 @@ description: >-
   functions from the existing functions as used.
 ---
 
-# All in one installation
+# All-in-one installation
 
 ```bash
 # Copyright 2019 by yaan.jang@gmail.com
