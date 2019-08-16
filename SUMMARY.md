@@ -5,6 +5,7 @@
 * [Getting Started](getting-started/README.md)
   * [Requirements](getting-started/requirements.md)
   * [Installation](getting-started/installation.md)
+  * [All in one installation](getting-started/all-in-one.md)
 * [Usage](usage.md)
 * [Protein evolution-design-folding](protein-evolution-design-folding/README.md)
   * [Amino acid sequence](protein-evolution-design-folding/amino-acid-sequence.md)
