@@ -4,3 +4,13 @@ In evolutionary coupling analysis \(ECA\) approach, we focus on the detections o
 
 ![](../.gitbook/assets/evolutionary_coupled_block.png)
 
+### Pairwise coupings and evolutionary block
+
+For example, we run `leri` on a ww-domain protein after get the aligned sequences by `jackhmmer`. 
+
+```bash
+$ leri sequence_coupling -msa <multiple_sequence_alignment>
+```
+
+![Figure: \(a\) Evolutionary couplings computed from the MSA of the ww-domain protein, and \(b\) the pairwise interactions between the amino acids in the coupled &apos;blocks&apos;. ](../.gitbook/assets/coupling-block.png)
+
