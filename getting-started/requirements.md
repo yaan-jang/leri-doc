@@ -10,7 +10,10 @@ sudo apt-get install -y --no-install-recommends \
       build-essential \
       libgflags-dev \
       libgoogle-glog-dev \
-      libiomp-dev
+      libiomp-dev \
+      libhdf5-dev \
+      libeigen3-dev \
+      libbz2-dev
 
 ```
 
