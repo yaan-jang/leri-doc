@@ -261,3 +261,17 @@ make
 make install
 ```
 
+### Plotting
+
+If one would like to run leri with figures, plotting packages are required to install. Gnuplot and R are two packages to generate figures. 
+
+```bash
+$ sudo apt install r-base
+```
+
+Then, install libarary `circlize` as follows,
+
+```r
+install.packages("circlize")
+```
+
