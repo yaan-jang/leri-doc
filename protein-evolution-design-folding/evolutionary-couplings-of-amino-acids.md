@@ -12,5 +12,5 @@ For example, we run `leri` on a ww-domain protein after get the aligned sequence
 $ leri sequence_coupling -msa <multiple_sequence_alignment>
 ```
 
-![Figure: From evolutionary couplings to amino acid blocks \(smaller is at top left, and bigger is at bottom right\)..](../.gitbook/assets/coupling-block%20%281%29.png)
+![](../.gitbook/assets/coupling-block.png)
 
