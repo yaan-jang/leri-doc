@@ -12,5 +12,5 @@ For example, we run `leri` on a ww-domain protein after get the aligned sequence
 $ leri sequence_coupling -msa <multiple_sequence_alignment>
 ```
 
-![](../.gitbook/assets/coupling-block.png)
+![Figure: From \(a\) evolutionary couplings to \(b\) amino acid blocks \(smaller is at top left, and bigger is at bottom right\) inferred from protein family PF00014, and \(c\) mapping to the tertiary structure \(PDB ID: 1AAP\).](../.gitbook/assets/coupling-block.png)
 
