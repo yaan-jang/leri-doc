@@ -29,9 +29,9 @@ When you get the multiple alignment of hits from the jackhmmer, it is time to la
 $ leri sequence_converter -jobname <JOB_NAME> -msa <NAME_OF_STO>.sto
 ```
 
-![Figure 1. Similarity between pairwise sequences.](../.gitbook/assets/p08908_sequence_similarity.png)
+![FIgure: Similarity between pairwise sequences.](../.gitbook/assets/ww_sequence_similarity.png)
 
-![Figure 2. Degree of conservation at each single site.](../.gitbook/assets/p08908_site_conservation.png)
+![Figure: Degree of conservation at each independent site.](../.gitbook/assets/ww_site_conservation.png)
 
 Trim aligned sequences according to the query sequence.
 
