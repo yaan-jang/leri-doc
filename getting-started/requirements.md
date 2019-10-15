@@ -10,7 +10,7 @@ sudo apt-get install -y --no-install-recommends \
       build-essential \
       libgflags-dev \
       libgoogle-glog-dev \
-      libiomp-dev \
+      libomp-dev \
       libhdf5-dev \
       libeigen3-dev \
       libbz2-dev
@@ -29,7 +29,7 @@ brew install -vd cmake gflags glog boost
 
 ### GCC
 
-Sometimes, on an old UNIX-like distribution,  a new version of `gcc` is required \(i.e. ultilize the features from `C++11` standard\) before installing other dependencies. Don't worry, here is how you can compile your own `gcc` on the distribution with/without root access.
+Sometimes, on an old UNIX-like distribution,  a new version of `gcc` is required \(i.e. utilize the features from `C++11` standard\) before installing other dependencies. Don't worry, here is how you can compile your own `gcc` on the distribution with/without root access.
 
 ```bash
 #! /bin/bash
@@ -215,6 +215,14 @@ export PATH=$LOCAL_PATH/$CMAKE_VERSION/bin:$PATH
 
 ### Boost library
 
+On Unix-like system, it is easy to install Boost library with sudo, type the following command in the terminal to install Boost library. 
+
+```bash
+apt-get install libboost-all-dev
+```
+
+If you would like to install the Boost library without root, you can follow this instruction to install it. 
+
 ```bash
 wget -nc https://dl.bintray.com/boostorg/release/1.65.0/source/boost_1_65_0.tar.gz
 tar -xvzf boost_1_65_0.tar.gz
@@ -228,7 +236,7 @@ cd boost_1_65_0
 
 ### Gflags 
 
-The `gflags` package contains a C++ library that implements commandline flags processing.
+The `gflags` package contains a C++ library that implements command line flags processing.
 
 {% hint style="warning" %}
 The latest version of `gflags` is not validated for the Leri software.
