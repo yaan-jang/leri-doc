@@ -27,6 +27,7 @@ We highly recommend using the [Homebrew](http://brew.sh/) package manager to ins
 
 ```bash
 brew install -vd cmake gflags glog boost
+brew install zlib bzip2
 ```
 
 ## Step-by-step
@@ -278,7 +279,7 @@ make install
 If one would like to run leri with figures, plotting packages are required to install. Gnuplot and R are two packages to generate figures. 
 
 ```bash
-$ sudo apt install r-base
+$ sudo apt install r-base gnuplot
 ```
 
 Then, install libarary `circlize` as follows,
