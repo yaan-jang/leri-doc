@@ -7,6 +7,7 @@
   * [Installation](getting-started/installation.md)
   * [All-in-one installation](getting-started/all-in-one.md)
 * [Usage](usage.md)
+* [Lipid traffic](lipid-traffic.md)
 * [Protein evolution-design-folding](protein-evolution-design-folding/README.md)
   * [Amino acid sequence](protein-evolution-design-folding/amino-acid-sequence.md)
   * [Evolutionary couplings of amino acids](protein-evolution-design-folding/evolutionary-couplings-of-amino-acids.md)

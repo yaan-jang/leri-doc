@@ -1,8 +1,12 @@
 # Amino acid sequence
 
-A multiple sequence alignment \(MSA\), as illustrated in Figure 1, is a sequence alignment of three or more biological sequences, generally protein, DNA, or RNA. Multiple sequence alignments can be useful in many circumstances, e.g., detecting historical and familial relations between sequences of proteins or amino acids and determining certain structures or locations on sequences.
-
 ![Figure 1. A multiple sequence alignment of $N$ sequences by $L$ positions. As shown, the lines in dark red stand for the conservation of the amino acids at that position, while the bold lines in orange indicate that the amino acids at position $i$ and $j$ are conserved and coupled.](../.gitbook/assets/msa.png)
+
+An **amino acid** \(as illustrated in Figure\) is an organic molecule that is made up of a basic **amino** group \(−NH2\), an acidic carboxyl group \(−COOH\), and an organic R group \(or side chain\) that is unique to each **amino acid**. The order of amino acids as they occur in a polypeptide chain, and It is of fundamental importance in determining protein conformation. 
+
+![The 21 proteinogenic amino acids.](../.gitbook/assets/aminoacids.png)
+
+A **multiple sequence alignment** \(**MSA**\), as illustrated in Figure 1, is a sequence alignment of three or more biological sequences, generally protein, DNA, or RNA. Multiple sequence alignments can be useful in many circumstances, e.g., detecting historical and familial relations between sequences of proteins or amino acids and determining certain structures or locations on sequences.
 
 ### Statistics in sequences
 
