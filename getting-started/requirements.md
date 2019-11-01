@@ -254,10 +254,10 @@ mkdir build
 cd build
 # ccmake # edit the prefix to /home/username/local, and type c
 # or
-cmake CMAKE_INSTALL_PREFIX=/home/username/local ..  
+cmake CMAKE_INSTALL_PREFIX=/home/username/local ..
 vi CMakeCache.txt # edit CMAKE_CXX_FLAGS:STRING=-fPIC
 make 
-make install
+make install DESTDIR=/home/bioc1657/local
 ```
 
 ### Glog
