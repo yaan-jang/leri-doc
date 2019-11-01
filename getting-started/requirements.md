@@ -282,9 +282,15 @@ If one would like to run leri with figures, plotting packages are required to in
 $ sudo apt install r-base gnuplot
 ```
 
-Then, install libarary `circlize` as follows,
+Then, install library `circlize` as follows,
 
 ```r
 install.packages("circlize")
+```
+
+Install Gnuplot in the terminal as follows,
+
+```bash
+$ sudo apt install gnuplot
 ```
 
