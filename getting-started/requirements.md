@@ -252,7 +252,9 @@ wget -nc https://github.com/gflags/gflags/archive/v2.2.2.tar.gz
 cd gflags
 mkdir build
 cd build
-ccmake .. # edit the prefix to /home/username/local, and type c
+# ccmake # edit the prefix to /home/username/local, and type c
+# or
+cmake CMAKE_INSTALL_PREFIX=/home/username/local ..  
 vi CMakeCache.txt # edit CMAKE_CXX_FLAGS:STRING=-fPIC
 make 
 make install
