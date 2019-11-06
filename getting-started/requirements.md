@@ -8,7 +8,7 @@ NOT support Boost Library 1.70+
 
 ## Unix-like system
 
-```bash
+```
 sudo apt-get update
 sudo apt-get install -y --no-install-recommends \
       build-essential \
@@ -25,7 +25,7 @@ sudo apt-get install -y --no-install-recommends \
 
 We highly recommend using the [Homebrew](http://brew.sh/) package manager to install the dependencies.
 
-```bash
+```
 brew install -vd cmake gflags glog boost
 brew install zlib bzip2
 ```
@@ -36,7 +36,7 @@ brew install zlib bzip2
 
 Sometimes, on an old UNIX-like distribution,  a new version of `gcc` is required \(i.e. utilize the features from `C++11` standard\) before installing other dependencies. Don't worry, here is how you can compile your own `gcc` on the distribution with/without root access.
 
-```bash
+```
 #! /bin/bash
 set -e
 #-----------------------------------------------------------------------------
@@ -164,7 +164,7 @@ export PATH=$LOCAL_PATH/$GCC_VERSION/bin:$PATH
 
 If the version of `gcc` is not too old on your distribution, you can just simply install the `make` as follows,
 
-```bash
+```
 wget -nc https://ftp.gnu.org/gnu/make/make-4.2.tar.gz
 tar -xzvf make-4.2.tar.gz
 ./configure --prefix=/home/<username>/local
@@ -174,7 +174,7 @@ make install
 
 If you compile your `gcc` own , then you are recommanded \(as shown above in step 5, just uncomment the lines\) to run as follows, 
 
-```bash
+```
 ## Step 5. Install Make
 # echo "Step 5. Installing Make ..."
 cd $MAKE_VERSION
@@ -191,7 +191,7 @@ export PATH=$LOCAL_PATH/$MAKE_VERSION/bin:$PATH
 
 ### Cmake
 
-```bash
+```
 wget -nc https://cmake.org/files/v3.12/cmake-3.12.2.tar.gz
 tar -xvf cmake-3.12.2.tar.gz
 cd cmake-3.12.2
@@ -202,7 +202,7 @@ cmake --version
 
 Or install `cmake` by following lines if you compile your own `gcc` 
 
-```bash
+```
 ## Step 6. Install Make
 #echo "Step 6. Installing Cmake ..."
 cd $CMAKE_VERSION
@@ -222,13 +222,13 @@ export PATH=$LOCAL_PATH/$CMAKE_VERSION/bin:$PATH
 
 On Unix-like system, it is easy to install Boost library with sudo, type the following command in the terminal to install Boost library. 
 
-```bash
+```
 apt-get install libboost-all-dev
 ```
 
 If you would like to install the Boost library without root, you can follow this instruction to install it. 
 
-```bash
+```
 wget -nc https://dl.bintray.com/boostorg/release/1.65.0/source/boost_1_65_0.tar.gz
 tar -xvzf boost_1_65_0.tar.gz
 cd boost_1_65_0                                             
@@ -247,7 +247,7 @@ The `gflags` package contains a C++ library that implements command line flags p
 The latest version of `gflags` is not validated for the Leri software.
 {% endhint %}
 
-```bash
+```
 wget -nc https://github.com/gflags/gflags/archive/v2.2.2.tar.gz
 cd gflags
 mkdir build
@@ -268,7 +268,7 @@ The `glog` library contains a C++ implementation of the Google logging module.
 The latest version of `glog` is not validated for the Leri software.
 {% endhint %}
 
-```bash
+```
 wget -nc https://github.com/google/glog/archive/v0.4.0.tar.gz
 tar -xvzf *.tar.gz
 ./configure --prefix=/home/username/local
@@ -280,19 +280,19 @@ make install
 
 If one would like to run leri with figures, plotting packages are required to install. Gnuplot and R are two packages to generate figures. 
 
-```bash
+```
 $ sudo apt install r-base gnuplot
 ```
 
 Then, install library `circlize` as follows,
 
-```r
+```
 install.packages("circlize")
 ```
 
 Install Gnuplot in the terminal as follows,
 
-```bash
+```
 $ sudo apt install gnuplot
 ```
 
