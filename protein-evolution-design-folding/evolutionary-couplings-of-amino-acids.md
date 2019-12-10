@@ -8,7 +8,7 @@ In evolutionary coupling analysis \(ECA\) approach, we focus on the detections o
 
 For example, we run `leri` on a ww-domain protein after get the aligned sequences by `jackhmmer`. 
 
-```
+```bash
 $ leri sequence_coupling -msa <multiple_sequence_alignment>
 ```
 

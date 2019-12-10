@@ -18,4 +18,5 @@
   * [Sequence features](structural-bioinformatics/sequence-features.md)
 * [Machine learning](machine-learning/README.md)
   * [Sequential evolving neural networks](machine-learning/sequential-evolving-neural-networks.md)
+* [Exploring how changes in DNA sequences impact protein function and disease](exploring-how-changes-in-dna-sequences-impact-protein-function-and-disease.md)
 
