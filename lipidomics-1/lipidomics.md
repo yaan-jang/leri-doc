@@ -1,4 +1,6 @@
-# Lipidomics
+# Data visualization
+
+### How to visualize high-dimensional data?
 
 Based on `Leri`, one can easily employ the [t-SNE](https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding) to analyze her/his high-dimensional data and get the interactive plotting. 
 
