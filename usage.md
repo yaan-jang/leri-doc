@@ -1,5 +1,50 @@
 # Usage
 
+### Generating MSA
+
+#### Generate an MSA by _`hhblits`_
+
+```bash
+# Use HHBLITS to generate MSA
+tmp_dirt=<temporary directory>
+n_threads=4 # number of threads
+id=1A2YA # PDB ID and chain of an example
+hhblits \
+-v 0 \
+-d /<directory_to_the_database>/uniclust/UniRef30_2020_03 \
+-cpu ${n_threads} \
+-n 5 \
+-E 0.001 \
+-o ${tmp_dirt}/${id}.hhr \
+-opsi ${tmp_dirt}/${id}_psiblast.aln \
+-i /<directory_to_the_FASTA>/${id}.fasta
+```
+
+#### Generate an MSA by _`jackhmmer`_
+
+```bash
+jackhmmer \
+ --notextw \
+ --cpu ${n_threads}  \
+ -A ${tmp_dirt}/${id}.sto \
+ --tblout ${tmp_dirt}/${id}_tbl.out \
+ --domtblout ${tmp_dirt}/${id}_domtbl.out  \
+ -E 0.01 \
+ --popen 0.25 \
+ --pextend 0.4 \
+ ${seq_dirt}/${id}.fasta \
+ /<directory_to_the_database>/uniref100.fasta \
+ 
+# Convert format 
+leri sequence_converter \
+ -jobname ${id} \
+ -msa ${tmp_dirt}/${id}.sto \
+ -threads ${n_threads} \
+ -output ${out_dirt}
+```
+
+### Usage of `leri`
+
 ```
 leri:  usage command line
  leri <command> <args>
