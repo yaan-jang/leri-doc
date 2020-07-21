@@ -254,10 +254,10 @@ mkdir build
 cd build
 # ccmake # edit the prefix to /home/username/local, and type c
 # or
-cmake CMAKE_INSTALL_PREFIX=/home/username/local ..
+cmake CMAKE_INSTALL_PREFIX=/home/<username>/local ..
 vi CMakeCache.txt # edit CMAKE_CXX_FLAGS:STRING=-fPIC
 make 
-make install DESTDIR=/home/bioc1657/local
+make install DESTDIR=/home/<username>/local
 ```
 
 ### Glog
@@ -271,7 +271,7 @@ The latest version of `glog` is not validated for the Leri software.
 ```bash
 wget -nc https://github.com/google/glog/archive/v0.4.0.tar.gz
 tar -xvzf *.tar.gz
-./configure --prefix=/home/username/local
+./configure --prefix=/home/<username>/local
 make 
 make install
 ```
