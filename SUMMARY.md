@@ -18,6 +18,7 @@
 * [Structural bioinformatics](structural-bioinformatics/README.md)
   * [Swarm-intelligence-based folding](structural-bioinformatics/swarm-intelligence-based-folding.md)
   * [Coarse-grained MD](structural-bioinformatics/coarse-grained-md.md)
+  * [Neural network for torsional angles](structural-bioinformatics/neural-network-for-torsional-angles.md)
   * [Sequence features](structural-bioinformatics/sequence-features.md)
 * [Lipidomics](lipidomics-1/README.md)
   * [Data visualization](lipidomics-1/lipidomics.md)
