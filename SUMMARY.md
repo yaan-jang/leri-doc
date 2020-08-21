@@ -15,6 +15,7 @@
   * [Protein folding](protein-evolution-design-folding/protein-folding.md)
 * [Protein stability](protein-stability.md)
 * [Structural bioinformatics](structural-bioinformatics/README.md)
+  * [Swarm-intelligence-based folding](structural-bioinformatics/swarm-intelligence-based-folding.md)
   * [Sequence features](structural-bioinformatics/sequence-features.md)
 * [Lipidomics](lipidomics-1/README.md)
   * [Data visualization](lipidomics-1/lipidomics.md)
