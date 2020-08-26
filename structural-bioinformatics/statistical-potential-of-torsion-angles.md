@@ -19,6 +19,5 @@ leri rama_map \
 -dirt  <STRING> \  # that contains the potenial file
 -index <STRING> \  # secondary structure
 -alpha <INT>       # degree of each bin size 
-
 ```
 
