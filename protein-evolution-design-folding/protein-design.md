@@ -22,6 +22,15 @@ $ leri point_mutation \
 
 ## Coupled mutation
 
+```text
+leri sequence_design \
+-fastx <STRING> \      # wild-type sequence in FASTA
+-mat <STRING>          # potentials for sequences in the family
+-temperature <FLOAT> \ # temperature
+-n <INT> \             # number of mutants
+-max_iter <INT>        # maximum number of iterations
+```
+
 ## Protein design
 
 Leri can be applied to facilitate the design of a given WT protein, and it attempts to uncover the biophysical rules \(evolutionary information\) that govern protein folding.
