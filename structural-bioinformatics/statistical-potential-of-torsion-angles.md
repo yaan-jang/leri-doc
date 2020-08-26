@@ -5,7 +5,7 @@ Generate the potential
 ```text
 leri rama_map \
 -type 0 \        # generate the potentail from PDBs
--alpha <INT> \   # bin size 
+-alpha <INT> \   # degree of bin size 
 -dirt <STRING> \ # that contains the potenial file
 -index <STRING>  # list of the PDBs
 ```
@@ -18,6 +18,7 @@ leri rama_map \
 -fastx <STRING> \ # query sequence
 -dirt <STRING> \  # that contains the potenial file
 -index <STRING> \ # secondary structure
+-alpha <INT>      # degree of each bin size 
 
 ```
 
