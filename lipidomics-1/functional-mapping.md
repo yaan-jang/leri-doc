@@ -39,12 +39,12 @@ There are two levels in the &lt;input\_folder&gt;, the first \(top\) one include
 ```
 
 {% hint style="info" %}
-Currently, it only supports that the name of folders for all NlaIII MUST include even number at the beginning while it is odd number for all the DpnII.
+Please carefully prepare your data
 {% endhint %}
 
 ### Ready to submit a job?
 
-When your data is ready to upload to `leri` web-server, just do it here as follows,
+When your data is ready to upload to `SATAY` web-server, just do it here as follows,
 
 ![](../.gitbook/assets/screenshot_20191211_112055-cropped-1.png)
 
