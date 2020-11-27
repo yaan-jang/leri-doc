@@ -28,4 +28,5 @@
 * [DNA sequence analysis](exploring-how-changes-in-dna-sequences-impact-protein-function-and-disease.md)
 * [Machine learning](machine-learning/README.md)
   * [Sequential evolving neural networks](machine-learning/sequential-evolving-neural-networks.md)
+* [FAQs](faqs.md)
 
