@@ -6,8 +6,9 @@
 
 Leri is an end-to-end platform initially developed for protein design that drastically improves software used in computational biology. It
 
+* infers residue communities that are relevant to protein functional sites
 * reveals positive and negative genetic interactions in single and multiple mutants
-* can identify drug targets
 * detects not only essential genes, but also essential protein couplings
 * generates other informative couplings
+* can identify drug targets 
 
