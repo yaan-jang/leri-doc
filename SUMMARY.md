@@ -9,7 +9,7 @@
 * [Usage](usage.md)
 * [Protein evolution-design-folding](protein-evolution-design-folding/README.md)
   * [Amino acid sequence](protein-evolution-design-folding/amino-acid-sequence.md)
-  * [Evolutionary couplings of amino acids](protein-evolution-design-folding/evolutionary-couplings-of-amino-acids.md)
+  * [Residue communities](protein-evolution-design-folding/evolutionary-couplings-of-amino-acids.md)
   * [Sequence potential & energy](protein-evolution-design-folding/sequence-potential-and-energy.md)
   * [Inferring functional networks](protein-evolution-design-folding/inferring-functional-networks.md)
   * [Protein design](protein-evolution-design-folding/protein-design.md)
