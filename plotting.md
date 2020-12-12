@@ -78,3 +78,5 @@ text(seq(1, 10, by=1), par("usr")[1] - 3, labels = xticker,
 text(1, 2, "(a)", cex = 1.35)
 ```
 
+![](.gitbook/assets/boxplot_r.png)
+
