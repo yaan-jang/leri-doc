@@ -111,6 +111,7 @@ install_boost() {
 }
 
 install_leri() {
+  # For internal use ONLY
   scratch_init leri
   git clone https://yaan-jang@bitbucket.org/lerianalytics/leri.git
   if [[ ! -d build ]]; then
@@ -131,6 +132,8 @@ install_glog
 echo "[-- Installing boost ..."
 install_boost
 echo "[-- Installing leri ..."
+# Please download the INSTALLER of Leri on the website
+# and skip it 
 install_leri
 
 echo "[-- Add the line into your ~/.bashrc"
@@ -141,4 +144,3 @@ echo "[-- export PATH=\$PATH:${LERI_INSTALL_DIRT}/bin"
 #rm -rf ${SCRATCH_DIRT}
 
 ```
-
