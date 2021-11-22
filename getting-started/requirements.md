@@ -3,7 +3,7 @@
 If you are not in sudoers, then you can still install leri without root access. Firstly, you are required to install the dependencies step by step.
 
 {% hint style="info" %}
-NOT support Boost Library 1.70+
+NOT test Boost Library 1.70+
 {% endhint %}
 
 ## Unix-like system
@@ -23,7 +23,7 @@ sudo apt-get install -y --no-install-recommends \
 
 ## Mac OSX
 
-We highly recommend using the [Homebrew](http://brew.sh/) package manager to install the dependencies.
+We highly recommend using the [Homebrew](http://brew.sh) package manager to install the dependencies.
 
 ```bash
 brew install -vd cmake gflags glog boost
@@ -34,7 +34,7 @@ brew install zlib bzip2
 
 ### GCC
 
-Sometimes, on an old UNIX-like distribution,  a new version of `gcc` is required \(i.e. utilize the features from `C++11` standard\) before installing other dependencies. Don't worry, here is how you can compile your own `gcc` on the distribution with/without root access.
+Sometimes, on an old UNIX-like distribution,  a new version of `gcc` is required (i.e. utilize the features from `C++11` standard) before installing other dependencies. Don't worry, here is how you can compile your own `gcc` on the distribution with/without root access.
 
 ```bash
 #! /bin/bash
@@ -172,7 +172,7 @@ make
 make install
 ```
 
-If you compile your `gcc` own , then you are recommanded \(as shown above in step 5, just uncomment the lines\) to run as follows, 
+If you compile your `gcc` own , then you are recommanded (as shown above in step 5, just uncomment the lines) to run as follows,&#x20;
 
 ```bash
 ## Step 5. Install Make
@@ -200,7 +200,7 @@ make && make install
 cmake --version 
 ```
 
-Or install `cmake` by following lines if you compile your own `gcc` 
+Or install `cmake` by following lines if you compile your own `gcc`&#x20;
 
 ```bash
 ## Step 6. Install Make
@@ -220,13 +220,13 @@ export PATH=$LOCAL_PATH/$CMAKE_VERSION/bin:$PATH
 
 ### Boost library
 
-On Unix-like system, it is easy to install Boost library with sudo, type the following command in the terminal to install Boost library. 
+On Unix-like system, it is easy to install Boost library with sudo, type the following command in the terminal to install Boost library.&#x20;
 
 ```bash
 apt-get install libboost-all-dev
 ```
 
-If you would like to install the Boost library without root, you can follow this instruction to install it. 
+If you would like to install the Boost library without root, you can follow this instruction to install it.&#x20;
 
 ```bash
 wget -nc https://dl.bintray.com/boostorg/release/1.65.0/source/boost_1_65_0.tar.gz
@@ -239,7 +239,7 @@ cd boost_1_65_0
 ./b2 install  
 ```
 
-### Gflags 
+### Gflags&#x20;
 
 The `gflags` package contains a C++ library that implements command line flags processing.
 
@@ -278,10 +278,10 @@ make install
 
 ### Plotting
 
-If one would like to run `leri` with figures, plotting packages are required to install. Gnuplot and R are two packages to generate figures. 
+If one would like to run `leri` with figures, plotting packages are required to install. Gnuplot and R are two packages to generate figures.&#x20;
 
 ```bash
-$ sudo apt install r-base gnuplot
+$ sudo apt install r-base
 ```
 
 Then, install library `circlize` as follows,
@@ -295,4 +295,3 @@ Install Gnuplot in the terminal as follows,
 ```bash
 $ sudo apt install gnuplot
 ```
-
