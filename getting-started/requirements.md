@@ -281,6 +281,24 @@ make install
 
 Leri is only tested on HDF5 Version 1.8.14
 
+### PyTorch
+
+More details can be found [here](https://github.com/pytorch/pytorch/blob/master/docs/libtorch.rst).
+
+```
+git clone -b master --recurse-submodule https://github.com/pytorch/pytorch.git
+mkdir pytorch-build
+
+cd pytorch-build
+cmake \
+-DBUILD_SHARED_LIBS:BOOL=ON \
+-DCMAKE_BUILD_TYPE:STRING=Release \
+-DPYTHON_EXECUTABLE:PATH=`which python3` \
+../pytorch
+#-DCMAKE_INSTALL_PREFIX:PATH=../pytorch-install 
+make install
+```
+
 ### Plotting
 
 If one would like to run `leri` with figures, plotting packages are required to install. Gnuplot and R are two packages to generate figures.&#x20;
