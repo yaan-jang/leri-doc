@@ -17,7 +17,8 @@ sudo apt-get install -y --no-install-recommends \
       libomp-dev \
       libhdf5-dev \
       libeigen3-dev \
-      libbz2-dev
+      libbz2-dev \
+      libhdf5-dev
 
 ```
 
@@ -275,6 +276,10 @@ tar -xvzf *.tar.gz
 make 
 make install
 ```
+
+### HDF5
+
+Leri is only tested on HDF5 Version 1.8.14
 
 ### Plotting
 
