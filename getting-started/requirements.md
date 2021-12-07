@@ -283,10 +283,9 @@ Leri is only tested on HDF5 Version 1.8.14
 
 ### PyTorch
 
-More details can be found [here](https://github.com/pytorch/pytorch/blob/master/docs/libtorch.rst).
+More details can be found [here](https://github.com/pytorch/pytorch/blob/master/docs/libtorch.rst). In Leri, we call modules in PyTorch to build deep learning models that are leveraged to analyze biological data.
 
 ```
-git clone -b master --recurse-submodule https://github.com/pytorch/pytorch.git
 mkdir pytorch-build
 
 cd pytorch-build
