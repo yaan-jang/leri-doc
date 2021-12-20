@@ -38,6 +38,7 @@ jackhmmer \
 # Convert format 
 leri sequence_converter \
  -jobname ${id} \
+ -type 1 \
  -msa ${tmp_dirt}/${id}.sto \
  -threads ${n_threads} \
  -output ${out_dirt}
@@ -259,4 +260,3 @@ printf "## L9. Completed in %f\n\n" "${runtime}"
 #date +"%T-%m-%d-%y"
 
 ```
-
