@@ -7,6 +7,7 @@
   * [Installation](getting-started/installation.md)
   * [All-in-one installation](getting-started/all-in-one.md)
 * [Usage](usage.md)
+* [Multiple sequence alignment](multiple-sequence-alignment.md)
 * [Protein evolution-design-folding](protein-evolution-design-folding/README.md)
   * [Amino acid sequence](protein-evolution-design-folding/amino-acid-sequence.md)
   * [Residue communities](protein-evolution-design-folding/evolutionary-couplings-of-amino-acids.md)
@@ -14,6 +15,7 @@
   * [Inferring functional networks](protein-evolution-design-folding/inferring-functional-networks.md)
   * [Protein design](protein-evolution-design-folding/protein-design.md)
   * [Protein folding](protein-evolution-design-folding/protein-folding.md)
+* [Protein function](protein-function.md)
 * [Protein stability](protein-stability/README.md)
   * [OptiFel for stability](protein-stability/optifel-for-stability.md)
 * [Structural bioinformatics](structural-bioinformatics/README.md)
@@ -30,4 +32,3 @@
   * [Sequential evolving neural networks](machine-learning/sequential-evolving-neural-networks.md)
 * [Plotting](plotting.md)
 * [FAQs](faqs.md)
-
