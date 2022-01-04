@@ -1,6 +1,6 @@
 # Multiple sequence alignment
 
-### Generate MSA from different database
+### Generate MSA from different databases
 
 #### _jackhmmer_ on [UniRef90](https://www.uniprot.org/help/uniref)/[MGnify](https://www.ebi.ac.uk/metagenomics/)
 
@@ -20,7 +20,7 @@ XX.fasta \
 uniref90.fasta
 ```
 
-#### hhblits on [Uniclust30](https://uniclust.mmseqs.com)/[BFD](https://bfd.mmseqs.com) database
+#### hhblits on [Uniclust30](https://uniclust.mmseqs.com)/[BFD](https://bfd.mmseqs.com) databases
 
 ```
 hhblits \
