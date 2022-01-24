@@ -40,7 +40,7 @@ hhblits \
 
 ### Align between pairwise sequences
 
-Provided two or more than two biological sequences, we leverage `leri` to align them using Needleman-Wunsch algorithm.  -jobname indicates results of the job will be output in the folder, -msa is to load the sequences where you have,`-print` is to show the information of each alignment`.`
+Provided two or more than two biological sequences, we leverage `leri` to align them using Needleman-Wunsch algorithm.  `-jobname` indicates results of the job will be output in the folder, `-msa` is to load the sequences where you have,`-print` is to show the information of each alignment`.`
 
 ```
 leri sequence_align \
