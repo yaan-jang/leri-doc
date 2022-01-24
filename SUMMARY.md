@@ -7,7 +7,7 @@
   * [Installation](getting-started/installation.md)
   * [All-in-one installation](getting-started/all-in-one.md)
 * [Usage](usage.md)
-* [Multiple sequence alignment](multiple-sequence-alignment.md)
+* [Biological sequence alignment](biological-sequence-alignment.md)
 * [Protein evolution-design-folding](protein-evolution-design-folding/README.md)
   * [Amino acid sequence](protein-evolution-design-folding/amino-acid-sequence.md)
   * [Residue communities](protein-evolution-design-folding/evolutionary-couplings-of-amino-acids.md)
