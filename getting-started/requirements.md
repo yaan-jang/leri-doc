@@ -3,7 +3,7 @@
 If you are not in sudoers, then you can still install leri without root access. Firstly, you are required to install the dependencies step by step.
 
 {% hint style="info" %}
-NOT test Boost Library 1.70+
+
 {% endhint %}
 
 ## Unix-like system
