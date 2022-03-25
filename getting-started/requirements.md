@@ -293,6 +293,9 @@ mkdir pytorch-build
 cd pytorch-build
 cmake \
 -DBUILD_SHARED_LIBS:BOOL=ON \
+-DUSE_MKLDNN=ON 
+-DUSE_MKLDNN_ACL=ON \
+-DUSE_MKLDNN_CBLAS=ON \
 -DCMAKE_BUILD_TYPE:STRING=Release \
 -DPYTHON_EXECUTABLE:PATH=`which python3` \
 ../pytorch
