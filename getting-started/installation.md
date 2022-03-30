@@ -7,7 +7,7 @@ Please go [here](https://kornmann.bioch.ox.ac.uk/leri/resources/download.html) t
 ### Build Leri from source code
 
 ```bash
-# For internal use ONLY
+# For local use ONLY
 mkdir build && cd build
 cmake \
 -DCMAKE_BUILD_TYPE=Release \
