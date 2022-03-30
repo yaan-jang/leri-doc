@@ -12,13 +12,19 @@ In evolutionary coupling analysis (ECA) approach, we focus on the detections of 
 
 ### Pairwise coupings and evolutionary block
 
-For example, we run `leri` on a ww-domain protein after get the aligned sequences by `jackhmmer`.&#x20;
+For example, we run `leri` on a protein (1AAP) from the aligned sequences from Pfam`[ref]`.&#x20;
 
 ```bash
 $ leri sequence_eca \
--msa <path_to_multiple_sequence_alignment>
--threads 1 \
--hlog 
+-jobname pf00014 \
+-threads 4 \
+-max_iter 2000 \ 
+-threshold -1.0 \    # no threshold for selection
+-gap_frac 1.0 \      # gaps in a sequence 
+-site_gap_frac 1.0   # gaps in a site of the given MSA
+-offset 0            # starting index for output results
+-msa <path_to_multiple_sequence_alignment> \
+-hlog                # local visualization
 ```
 
 ![Figure: From (a) evolutionary couplings to (b) amino acid blocks (smaller is at top left, and bigger is at bottom right) inferred from protein family PF00014, and (c) mapping to the tertiary structure (PDB ID: 1AAP).](../.gitbook/assets/coupling-block.png)
