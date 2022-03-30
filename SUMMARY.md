@@ -17,6 +17,7 @@
   * [Protein folding](protein-evolution-design-folding/protein-folding.md)
 * [Protein function](protein-function.md)
 * [Structural bioinformatics](structural-bioinformatics/README.md)
+  * [Ramachandran map](structural-bioinformatics/ramachandran-map.md)
   * [Structure prediction](structural-bioinformatics/structure-prediction.md)
   * [Swarm-intelligence-based folding](structural-bioinformatics/swarm-intelligence-based-folding.md)
   * [Coarse-grained MD](structural-bioinformatics/coarse-grained-md.md)
