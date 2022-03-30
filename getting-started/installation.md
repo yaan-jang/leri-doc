@@ -11,10 +11,11 @@ Please go [here](https://kornmann.bioch.ox.ac.uk/leri/resources/download.html) t
 mkdir build && cd build
 cmake \
 -DCMAKE_BUILD_TYPE=Release \
--DBoost_NO_SYSTEM_PATHS=TRUE \
--DBoost_NO_BOOST_CMAKE=TRUE \
--DBoost_ROOT=/home/<username>/local/include \
--DBoost_LIBRARY_DIRS:FILEPATH=/home/<username>/local/lib \
+-DUSE_CCACHE=ON \
+-DUSE_PLOT=ON \
+-DUSE_PYMOL=ON \
+-DUSE_TORCH=ON \
+-DUSE_OPENMP=ON \
 ..
 make
 make install
