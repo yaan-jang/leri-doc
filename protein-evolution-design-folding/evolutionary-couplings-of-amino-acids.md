@@ -10,7 +10,7 @@ In evolutionary coupling analysis (ECA) approach, we focus on the detections of 
 
 ![](../.gitbook/assets/evolutionary\_coupled\_block.png)
 
-### Pairwise coupings and evolutionary block
+### Pairwise couplings and evolutionary block
 
 For example, we run `leri` on a protein (1AAP) from the aligned sequences from Pfam`[ref]`.&#x20;
 
