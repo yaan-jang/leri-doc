@@ -19,6 +19,7 @@
 * [Protein stability](protein-stability/README.md)
   * [OptiFel for stability](protein-stability/optifel-for-stability.md)
 * [Structural bioinformatics](structural-bioinformatics/README.md)
+  * [Structure prediction](structural-bioinformatics/structure-prediction.md)
   * [Swarm-intelligence-based folding](structural-bioinformatics/swarm-intelligence-based-folding.md)
   * [Coarse-grained MD](structural-bioinformatics/coarse-grained-md.md)
   * [Statistical potential of torsion angles](structural-bioinformatics/statistical-potential-of-torsion-angles.md)
