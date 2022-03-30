@@ -15,7 +15,10 @@ In evolutionary coupling analysis (ECA) approach, we focus on the detections of 
 For example, we run `leri` on a ww-domain protein after get the aligned sequences by `jackhmmer`.&#x20;
 
 ```bash
-$ leri sequence_eca -msa <multiple_sequence_alignment>
+$ leri sequence_eca \
+-msa <path_to_multiple_sequence_alignment>
+-threads 1 \
+-hlog 
 ```
 
 ![Figure: From (a) evolutionary couplings to (b) amino acid blocks (smaller is at top left, and bigger is at bottom right) inferred from protein family PF00014, and (c) mapping to the tertiary structure (PDB ID: 1AAP).](../.gitbook/assets/coupling-block.png)
